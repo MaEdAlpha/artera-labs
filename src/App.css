@@ -6,6 +6,14 @@ p {
   margin: 0px;
 }
 
+.site__wrapper{
+  display: inline-flex;
+}
+
+.site__content{
+  width: 100%;
+}
+
 .App {
   text-align: center;
 }

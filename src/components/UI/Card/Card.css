@@ -18,5 +18,24 @@
 }
 
 .card__tag{
-    background: red;
+    position: fixed;
+    top: 1vw;
+    right: 2vw;
+    background: #fff;
+    width: 100px;
+    padding: 3px;
+    overflow-wrap: normal;
+    border-radius: 10px;
+    position: fixed;
+    right: 2vw;
+}
+
+.card__tag>p{
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card__tag:hover{
+    width: fit-content;
 }

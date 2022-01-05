@@ -1,9 +1,11 @@
 .side-nav__container {
   display: block;
+  min-width: 200px;
   width: 20vw;
   height: 100vh;
   background: white;
   margin: 0px;
+  border-radius: 0px 50px 50px 0px;
 }
 
 .logo-container {
@@ -38,11 +40,19 @@
   list-style-type: none;
   text-align: center;
   line-height: 1.75;
+  padding: 0px;
 }
 
 .side-nav__ul > li {
   font-family: Lato, sans-serif;
   font-size: 1.4rem;
+}
+
+.side-nav__ul > li:hover {
+  color: #fe0dd8;
+  text-decoration: underline;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 img.logo {

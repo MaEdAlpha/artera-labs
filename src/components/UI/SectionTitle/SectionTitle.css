@@ -1,0 +1,17 @@
+.section-title{
+    font-size: 39px;
+    line-height: 1;
+    width: fit-content;
+    text-align: center;
+}
+
+.section-title > h1.top {
+    margin: 0px;
+    color: white;
+}
+.section-title > h1.bottom {
+    margin: 0px;
+    color: #fe0dd8;
+}
+
+
