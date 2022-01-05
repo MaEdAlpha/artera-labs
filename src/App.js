@@ -17,6 +17,7 @@ function App() {
 
   const displayContentOnClick = (event) =>{
     setContentSelect(event.target.value);
+    
     console.log('Content Selected!');
   }
 
@@ -25,7 +26,7 @@ function App() {
       { false && <Modal><Card className="popup__basic">Hi!</Card></Modal>}
       <Tag></Tag>
       <div className='site__wrapper'>
-        <SideNav dispalyContentHandler={displayContentOnClick} />
+        <SideNav dispalyContentHandler={displayContentOnClick} selectedNav={contentSelect} />
         <div className='site__content'>
           {contentSelect === 0 && <DashBoard />}
           {contentSelect === 1 && <LaunchPad />}

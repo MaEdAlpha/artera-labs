@@ -1,0 +1,8 @@
+.dash-board-item{
+    color: black;
+}
+
+h1.dash-board-item{
+    margin: 0px;
+    font-size: 4vw;
+}

@@ -49,13 +49,19 @@
 }
 
 .side-nav__ul > li:hover {
+  transform: scale(1.1);
   color: #fe0dd8;
   text-decoration: underline;
-  transform: scale(1.1);
   cursor: pointer;
 }
 
 img.logo {
   width: 200px;
   height: auto;
+}
+
+.side-nav__li{
+  color: black;
+  font-weight: 600;
+
 }

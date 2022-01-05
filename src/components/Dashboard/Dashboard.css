@@ -1,3 +1,10 @@
 h1{
     color: white;
 }
+
+.dashboard__content{
+    display: inline-flex;
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+}

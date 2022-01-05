@@ -39,3 +39,9 @@
 .card__tag:hover{
     width: fit-content;
 }
+
+.card__dashboard-item {
+    width: 15vw;
+    background: white;
+    color: black;
+}

@@ -1,8 +1,11 @@
 .section-title{
-    font-size: 39px;
     line-height: 1;
     width: fit-content;
     text-align: center;
+}
+
+.section-title>h1{
+    font-weight: 500;
 }
 
 .section-title > h1.top {
@@ -12,6 +15,28 @@
 .section-title > h1.bottom {
     margin: 0px;
     color: #fe0dd8;
+}
+
+/* font sizing section title + descriptors */
+
+h1.top{
+    font-size: 5vw;
+}
+
+h1.bottom{
+    font-size: 3vw;
+}
+
+.section__launchpad > h1{
+    font-size: 4vw;
+}
+
+.section__incubators > h1.bottom{
+    font-size:3.5vw;
+}
+
+.section__governance > h1{
+    font-size: 4vw;
 }
 
 

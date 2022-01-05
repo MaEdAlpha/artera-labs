@@ -6,13 +6,19 @@ p {
   margin: 0px;
 }
 
+.site__wrapper,
+.site__content{
+  width: 100%;
+}
+
 .site__wrapper{
   display: inline-flex;
 }
 
 .site__content{
-  width: 100%;
+  padding: 3em;
 }
+
 
 .App {
   text-align: center;
