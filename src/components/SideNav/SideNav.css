@@ -29,11 +29,14 @@
   justify-content: center;
 }
 
-.side-nav__footer {
+.side-nav__footer{
   height: 25vh;
   justify-content: center;
-  display: flex;
+  display: grid;
+  text-align: center;
   align-items: flex-end;
+  grid-template-rows: 70% 50px;
+  user-select: none;
 }
 
 .side-nav__ul {
@@ -63,5 +66,15 @@ img.logo {
 .side-nav__li{
   color: black;
   font-weight: 600;
-
 }
+
+.side-nav__icons>a>img{
+  width: 2vw;
+  margin: 0 5px;
+}
+
+.side-nav__icons>a>img:hover{
+  background-color: #fe0dd8;
+}
+
+

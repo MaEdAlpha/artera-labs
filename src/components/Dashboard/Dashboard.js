@@ -5,28 +5,30 @@ import DashBoardItem from './DashBoardItem';
 
 import SectionTitle from "../UI/SectionTitle/SectionTitle";
 
-const DashBoard = () => {
+const DashBoard = (props) => {
   const topText = "HELLO";
   const bottomText = "ARTERIAN";
 
-  const ARTERIAN_STATS = [{
-      item:'k1',
-      topContent: 'YOUR $ARTYS BALANCE',
-      middleContent: '455',
-      bottomContent: 'TOKENS'
+  //Possibly a cleaner way to handle this data, hardcode the html in and populate userModel via props. 
+  const ARTERIAN_STATS = [
+    {
+    item:'s1',
+    topContent: 'YOUR $ARTYS BALANCE',
+    middleContent: props.userInfo.balance,
+    bottomContent: 'TOKENS'
   }, 
   {
-    item:'k2',
+    item:'s2',  
     topContent: 'VOTING POWER',
-    middleContent: '5460',
+    middleContent: props.userInfo.voteStrength,
     bottomContent: 'VOTES'
   }, 
   {
-    item:'k3',
+    item:'s3',
     topContent: 'YOU HAVE SUPPORTED',
-    middleContent: '12',
+    middleContent: props.userInfo.supportedProjects,
     bottomContent: 'PROJECTS'
-  }]
+    }];
 
   return (
     <Fragment>

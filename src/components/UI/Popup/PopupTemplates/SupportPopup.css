@@ -1,0 +1,15 @@
+.popup__support > h1 {
+  background: black;
+  color: white;
+  margin: 8px 0px;
+}
+
+.popup__support > button {
+    width: 100%;
+    background: transparent;
+    border-style: hidden;
+    font-family: lemon-milk;
+    font-size: 2rem;
+}
+
+

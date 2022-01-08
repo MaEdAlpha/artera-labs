@@ -1,0 +1,25 @@
+.project__wrapper,
+.project__img{
+    width: inherit;
+    margin: 0px;
+    user-select: none;
+}
+
+.project__img>img{
+    width: 75%;
+    border-radius: 50%;
+}
+
+.project__content>p{
+    overflow: hidden;
+    height: 4rem;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.5rem;
+}
+
+.project__artiste > h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

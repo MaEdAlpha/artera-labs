@@ -7,8 +7,20 @@ h1.dash-board-item{
     font-size: 4vw;
 }
 
+h3.dash-board-item{
+    font-size: 1.2vw;
+}
+
 .dash-board-content{
-    width: 100%;
+    width: 15vw;
     height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 100%;
+    user-select: none;
+}
+
+.dash-board-content-vert-align{
+    padding-top: 100%;
 }

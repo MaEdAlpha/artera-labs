@@ -17,6 +17,10 @@
     background: white;
 }
 
+.popup__read-more>h1{
+    color: black;
+}
+
 .card__tag{
     position: fixed;
     top: 1vw;
@@ -44,4 +48,18 @@
     width: 15vw;
     background: white;
     color: black;
+}
+
+.card__launchpad-project{
+    width: 12vw;
+    border-radius: 40px;
+    background: white;
+}
+
+.card__govern-proposal{
+    display: flex;
+    height: 25vh;
+    align-items: center;
+    border-radius: 50px;
+    background: #fff;
 }

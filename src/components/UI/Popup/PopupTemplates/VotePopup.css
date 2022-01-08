@@ -1,0 +1,10 @@
+.vote-popup__wrapper{
+    height: inherit;
+    display: grid;
+    align-items: center;
+  }
+
+  .vote-popup__btn-wrapper{
+    justify-content: space-around;
+    display: flex;
+  }

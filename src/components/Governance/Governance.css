@@ -1,0 +1,15 @@
+.governance__content{
+    height: 70vh;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.governance__horizontal{
+    height: fit-content;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 30vh 30vh;
+    grid-template-columns: 40vw 40vw;
+}
