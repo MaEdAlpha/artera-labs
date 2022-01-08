@@ -29,7 +29,7 @@
   justify-content: center;
 }
 
-.side-nav__footer{
+.side-nav__footer {
   height: 25vh;
   justify-content: center;
   display: grid;
@@ -63,18 +63,19 @@ img.logo {
   height: auto;
 }
 
-.side-nav__li{
+.side-nav__li {
   color: black;
   font-weight: 600;
 }
 
-.side-nav__icons>a>img{
-  width: 2vw;
+.side-nav__icons > a > img {
+  max-width: 3rem;
+  width: 2rem;
+  min-width: 2rem;
   margin: 0 5px;
 }
 
-.side-nav__icons>a>img:hover{
+.side-nav__icons > a > img:hover {
   background-color: #fe0dd8;
+  border-radius: 10px;
 }
-
-
