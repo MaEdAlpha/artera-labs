@@ -72,5 +72,5 @@
   }
 
   .modal__content{
-    height: inherit;
+    height: fit-content;
   }
