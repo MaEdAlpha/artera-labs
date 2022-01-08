@@ -1,3 +1,7 @@
+.popup__support {
+  overflow: hidden;
+}
+
 .popup__support > h1 {
   background: black;
   color: white;
