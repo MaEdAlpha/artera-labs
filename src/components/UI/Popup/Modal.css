@@ -19,7 +19,7 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     z-index: 30;
     animation: slide-down 300ms ease-out forwards;
-    overflow: scroll;
+    overflow: auto;
   }
   
   @media (min-width: 768px) {
@@ -45,6 +45,13 @@
     top: calc(50% - 40vh);
     border-radius: 50px;
     padding: 20px;
+  }
+
+
+  .modal::-webkit-scrollbar,
+  .modal__proposal::-webkit-scrollbar,
+  .proposal-popup__container>p::-webkit-scrollbar {
+      display: none;
   }
 
   .modal__support{
