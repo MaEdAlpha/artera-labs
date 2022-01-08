@@ -1,7 +1,7 @@
 .proposal-popup__container>p{
     height: 60vh;
     margin: 0px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .proposal-popup__container>h1{
