@@ -2,6 +2,10 @@
   overflow: hidden;
 }
 
+.popup__support > p {
+  padding: 0px 5px;
+}
+
 .popup__support > h1 {
   background: black;
   color: white;

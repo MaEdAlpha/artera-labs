@@ -44,43 +44,38 @@ button.btn__light{
   background: #a33fef;
 }
 
+@media only screen and (max-height: 699px) {
+    .proposal__wrapper > p{
+      display: none;
+    }
 
+    .side-nav__sections{
+      height: 45vh !important;
+    }
 
-.App {
-  text-align: center;
+    .project__content > p{
+      display: none;
+    }
+
+    .img-logo{
+      width: 175px;
+    }
+
+    .side-nav__footer{
+      height: fit-content;
+    }
+
+    .section-title > h1{
+      font-size: 3.5vw !important;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-height: 620px) {
+  .side-nav__sections{
+    height: 40vh !important;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .section-title > h1{
+    font-size: 2.5vw !important;
   }
 }

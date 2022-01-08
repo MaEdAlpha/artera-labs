@@ -6,7 +6,7 @@ import Backdrop from './Backdrop';
 
 const ModalOverlay = (props) => {
     return(<div className={'modal ' + props.className}>
-        <div className='modal__content'>{props.children}</div>
+        <div className='modal__content '>{props.children}</div>
     </div>)
 }
 

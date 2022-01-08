@@ -50,7 +50,7 @@
 
   .modal::-webkit-scrollbar,
   .modal__proposal::-webkit-scrollbar,
-  .proposal-popup__container>p::-webkit-scrollbar {
+  .proposal-popup__container > p::-webkit-scrollbar {
       display: none;
   }
 
@@ -69,6 +69,10 @@
     text-align: center;
     left: calc(50% - 10rem);
     top: 40vh;
+  }
+
+  .modal__vote-popup > .modal__content {
+    height: 100%;
   }
 
   .modal__content{
