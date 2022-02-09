@@ -1,12 +1,14 @@
-.application__content>h1{
-    color: white;
-    font-size: 5rem;
+.application__content > h1 {
+  color: white;
+  font-size: 5rem;
+  margin: 0;
+  position: absolute;
+  top: calc(50vh - 4rem);
 }
 
-.application__content{
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.application__content {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-

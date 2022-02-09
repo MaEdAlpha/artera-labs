@@ -1,0 +1,83 @@
+.claims__box {
+    background: white;
+    width: 70%;
+    text-align: center;
+    display: table;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    min-height: 30px;
+    height: 50px;
+    padding: 20px 0;
+}
+
+.top__bigger_text{
+    font-size: 2.2rem;
+}
+
+.top__smaller_text{
+    font-size: 0.9rem;
+}
+
+.claims__top{
+    min-height: 15vh;
+    display: grid;
+    overflow: hidden;
+}
+
+.claims__bottom{
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+}
+
+.claims__input{
+    background: #ffe2fa;
+    width: 90%;
+    min-height: 2rem;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid #ff1fdd38;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.claims__middle-input{
+    width: 100%;
+    height: fit-content;
+}
+
+.claims__middle.claims__box {
+    min-height: 100px;
+    padding: 0px;
+}
+
+.claims__middle-error{
+    color: #fe0dd8;
+    margin-top: 10px;
+}
+
+.claims__input:focus{
+    font-weight: 600;
+}
+
+.claims__text-smallest{
+    font-size:0.7;
+}
+
+.claims__text-large{
+    font-size: 1.3rem;
+}
+
+.claims__text-largest{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+

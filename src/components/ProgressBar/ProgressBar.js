@@ -1,7 +1,7 @@
 import './ProgressBar.css';
 
 const ProgressBar = (props) => {
-
+    
     let barHeight = Math.round(props.numerator/props.denominator * 100) + '%';
 
     return(

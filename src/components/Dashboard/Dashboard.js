@@ -13,8 +13,8 @@ const DashBoard = (props) => {
   const ARTERIAN_STATS = [
     {
     item:'s1',
-    topContent: 'YOUR $ARTYS BALANCE',
-    middleContent: props.userInfo.balance,
+    topContent: 'YOUR $ARTSY BALANCE',
+    middleContent: (props.userInfo.balance),
     bottomContent: 'TOKENS'
   }, 
   {
@@ -26,7 +26,7 @@ const DashBoard = (props) => {
   {
     item:'s3',
     topContent: 'YOU HAVE SUPPORTED',
-    middleContent: props.userInfo.supportedProjects,
+    middleContent: props.userInfo.supportedProjects === undefined ? 0 : props.userInfo.supportedProjects,
     bottomContent: 'PROJECTS'
     }];
 

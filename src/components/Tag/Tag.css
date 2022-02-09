@@ -1,0 +1,61 @@
+.tag__wrapper{
+    display: inline-flex;
+    align-items: center;
+    position: fixed;
+    top: 7vh;
+    right: 3vw;
+    width: fit-content;
+    height: 40px;
+    z-index: 10000;
+}
+
+.tag__remove-wallet{
+    background: olivedrab;
+}
+
+.tag__add-wallet{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 51px;
+    border-style: none;
+    
+    margin: 0 10px;
+}
+
+.tag__wallet-added-wrapper {
+    height: inherit;
+    float: right;
+    margin-left: auto;
+    padding: 0 10px;
+}
+
+.tag__wallet-added{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: inherit;
+    background: white;
+    border-radius: 30px;
+    border-style: none;
+    font-family: 'lemon-milk';
+    padding: 5px 20px;
+}
+
+.tag__wallet-added-icon{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 0 5px;
+    padding-top: 2px;
+    margin-bottom: 3px;
+}
+
+#connect-wallet-text{
+    width: fit-content;
+}

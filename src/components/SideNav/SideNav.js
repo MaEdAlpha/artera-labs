@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './SideNav.css';
 import twitterIcon from '../../assets/icons/twitt.png';
 import mediumIcon from '../../assets/icons/medium.png';
@@ -6,8 +7,9 @@ import discordIcon from '../../assets/icons/disc.png';
 
 
 const SideNav = (props) => {
-    console.log('SideNave App Running');
+    const [tabState, setTabState] = useState(0);
     const mainLogo = require("../../assets/gif/ArteraLogo.gif");
+    const navStyling = 'side-nav__active-tab';
     return (
         <Fragment>
             <div className='side-nav__container'>
@@ -18,10 +20,46 @@ const SideNav = (props) => {
                 </div>
                 <div className='side-nav__sections'>
                     <ul className='side-nav__ul'>
-                        <li onClick={props.dispalyContentHandler} className={props.selectedNav === 0 ? 'side-nav__li' : ''} value="0">DASHBOARD</li>
-                        <li onClick={props.dispalyContentHandler} className={props.selectedNav === 1 ? 'side-nav__li' : ''} value="1" >LAUNCHPAD</li>
-                        <li onClick={props.dispalyContentHandler} className={props.selectedNav === 2 ? 'side-nav__li' : ''} value="2">GOVERNANCE</li>
-                        <li onClick={props.dispalyContentHandler} className={props.selectedNav === 3 ? 'side-nav__li' : ''} value="3">APPLICATIONS</li>
+                        <li >
+                            <Link to='/'
+                                className={tabState === 0 ? navStyling: ''} 
+                                onClick={() => setTabState(0) }
+                                >
+                                    DASHBOARD
+                            </Link>
+                        </li>
+                        <li >
+                            <Link to='/launch-pad'
+                                className={tabState === 1 ? navStyling: ''}  
+                                onClick={() => setTabState(1) } 
+                                >
+                                    LAUNCHPAD
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/governance'
+                                className={tabState === 2 ? navStyling: ''} 
+                                onClick={() => setTabState(2) } 
+                                >   
+                                    GOVERNANCE
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/applications'
+                                className={tabState === 3 ? navStyling: ''} 
+                                onClick={() => setTabState(3) } 
+                                >
+                                    APPLICATIONS
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/claims' 
+                                className={tabState === 4 ? navStyling: ''}
+                                onClick={() => setTabState(4) } 
+                                >
+                                    CLAIM TOKENS
+                            </Link>
+                        </li>
                     </ul>
                 </div>
                 <div className='side-nav__footer'>
@@ -29,7 +67,7 @@ const SideNav = (props) => {
                     <div className='side-nav__icons'>
                     <a href="https://twitter.com/ArteraLabs"  target="_blank" rel="noopener noreferrer"><img src={twitterIcon} alt='twitter'></img></a>
                     <a href="https://medium.com/@arteralabs"  target="_blank" rel="noopener noreferrer"><img src={mediumIcon} alt='medium'></img></a>
-                    <a href="https://discord.gg/fX8rraBw8T"  target="_blank" rel="noopener noreferrer"><img src={discordIcon} alt='discord'></img></a>
+                    <a href="https://discord.gg/Xn63NJSvxM"  target="_blank" rel="noopener noreferrer"><img src={discordIcon} alt='discord'></img></a>
                     </div>
                 </div>
             </div>

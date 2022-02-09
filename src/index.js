@@ -1,14 +1,25 @@
-import React from 'react';
+import React  from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './assets/fonts/LEMONMILK-Regular.otf'
+import { ChainId, DAppProvider } from '@usedapp/core';
+import { BrowserRouter } from 'react-router-dom';
+
+const config = {
+  readOnlyChainId: ChainId.Moonriver,
+}
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <React.StrictMode>
+      <DAppProvider config={config}>
+        <App />
+      </DAppProvider>
+    </React.StrictMode>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

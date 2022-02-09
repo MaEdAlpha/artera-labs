@@ -1,0 +1,19 @@
+.card__tag-drop-down>button{
+    background: transparent;
+    border-style: none;
+    width: 100%;
+    height: 100%;
+    font-family: 'lemon-milk';
+}
+
+.card__tag-drop-down{
+    margin: 10px 0;
+    background: white;
+    width: inherit;
+    border-radius: 30px;
+}
+
+.card__tag-drop-down:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 4px 4px 1px #fa22d857;
+}

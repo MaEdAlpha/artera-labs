@@ -52,9 +52,11 @@
 
 .side-nav__ul > li:hover {
   transform: scale(1.1);
-  color: #fe0dd8;
-  text-decoration: underline;
   cursor: pointer;
+}
+
+.side-nav__active-tab{
+  color: #fe0dd8;
 }
 
 img.logo {

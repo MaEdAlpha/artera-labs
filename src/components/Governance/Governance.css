@@ -13,4 +13,5 @@
     grid-template-rows: 30vh 30vh;
     grid-template-columns: 40vw 40vw;
     align-content: space-evenly;
+    justify-content: flex-end;
 }

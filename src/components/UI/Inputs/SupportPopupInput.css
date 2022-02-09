@@ -1,0 +1,17 @@
+.support__input{
+    background: #0000006b;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 70%;
+    color: white;
+    text-align: right;
+    font-size: 2rem;
+    width: 70%;
+    padding: 0 10px;
+}
+
+input.support__input::-webkit-outer-spin-button,
+input.support__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
